@@ -1,0 +1,417 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    float: left;
+    font-size: 36px;
+    margin: 0;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffc107;
+}
+
+.section {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    border: 5px solid #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.image-container img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.image-container img:hover {
+    transform: scale(1.05);
+}
+
+.product {
+    display: inline-block;
+    margin: 20px;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}
+
+.product img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.img-fixed-small {
+    width: 250px;
+    height: auto;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ffc107;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+body {
+    margin: 0; /* Supprime les marges par défaut */
+    padding: 0; /* Supprime les rembourrages par défaut */
+    font-family: Arial, sans-serif; /* Utilisation de la police Arial par défaut */
+}
+
+/* Style pour la section Accueil avec une image de fond */
+#accueil {
+    background-image: url('fond1.jpg'); /* Chemin vers l'image de fond */
+    background-size: cover; /* Redimensionner l'image de fond pour couvrir toute la section */
+    background-position: center top; /* Positionner l'image de fond au centre en haut */
+    color: #fff; /* Couleur de texte blanc pour un meilleur contraste */
+    text-align: center; /* Centrer le contenu */
+    padding: 100px 0 50px; /* Espacement intérieur pour le contenu (haut, droite, bas, gauche) */
+}
+
+/* Style pour le titre de la section Accueil */
+#accueil h2 {
+    background-color: rgba(0, 0, 0, 0.5); /* Arrière-plan semi-transparent */
+    padding: 20px; /* Espacement intérieur pour le titre */
+    margin: 0; /* Supprime les marges par défaut */
+}
+
+/* Style pour l'en-tête */
+header {
+    background-color: #000; /* Changement de la couleur de fond à noir */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between; /* Alignement horizontal */
+    align-items: center; /* Alignement vertical */
+    padding: 0 10px; /* Réduire la marge gauche et droite */
+}
+
+header h1 {
+    font-size: 32px; /* Réduire légèrement la taille de la police */
+    font-weight: bold;
+    margin: 0;
+    margin-right: 10px; /* Ajout de la marge à droite */
+}
+
+header .brand {
+    display: flex;
+    align-items: center;
+    margin-right: auto; /* Aligner à gauche */
+}
+
+header .brand img {
+    height: 70px; /* Taille du logo agrandie */
+    margin-right: 10px; /* Marge à droite du logo */
+}
+
+header .brand h1,
+header .brand span {
+    font-size: 28px; /* Réduire légèrement la taille de la police */
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li:last-child {
+    margin-right: 0; /* Supprime la marge à droite du dernier élément */
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ffd700; /* Couleur jaune pour l'effet de survol */
+}
+
+/* Style pour les encadrements */
+.encadrement {
+    background-color: rgba(0, 0, 0, 0.5); /* Arrière-plan semi-transparent */
+    padding: 20px; /* Espacement intérieur pour le texte */
+    margin: 20px auto; /* Marge extérieure pour centrer l'encadrement */
+    max-width: 80%; /* Largeur maximale de l'encadrement */
+    text-align: center; /* Centrer le texte */
+}
+
+.encadrement p {
+    margin: 0; /* Supprime les marges par défaut */
+}
+
+.encadrement h2 {
+    margin-bottom: 10px; /* Marge inférieure pour le titre */
+}
+
+/* Style pour l'image du stade */
+.image-container {
+    margin-top: 50px; /* Ajout d'un espace entre le fond1 et l'image du stade */
+    max-width: 100%; /* Pour que l'image occupe la largeur maximale */
+    overflow: hidden; /* Pour cacher toute partie de l'image qui dépasse */
+}
+
+.image-container img {
+    width: 100%; /* Pour que l'image occupe 100% de la largeur du conteneur */
+}
+
+/* Style pour la section Équipe */
+#equipe {
+    margin-top: 5px; /* Réduction de l'espace entre le titre "Notre Équipe" et le contenu précédent */
+    margin-bottom: 20px; /* Ajout d'un espace en bas */
+}
+
+.player img {
+    max-width: 100%; /* Pour que l'image occupe 100% de la largeur du conteneur */
+    height: auto; /* Ajustement automatique de la hauteur pour conserver les proportions */
+    display: block; /* Pour centrer l'image horizontalement */
+    margin: 0 auto; /* Pour centrer l'image horizontalement */
+}
+
+/* Style pour la section Boutique */
+#boutique .container {
+    text-align: center; /* Centrer horizontalement */
+}
+
+.product {
+    display: inline-block; /* Afficher les produits en ligne */
+    width: calc(33.33% - 20px); /* Largeur de chaque maillot (1/3) avec espacement */
+    margin: 0 10px 20px; /* Espacement autour de chaque maillot */
+    vertical-align: top; /* Alignement vertical en haut */
+    text-align: center; /* Centrer le contenu */
+}
+
+.product img {
+    max-width: 100%; /* Pour que l'image occupe 100% de la largeur du conteneur */
+    height: auto; /* Ajustement automatique de la hauteur pour conserver les proportions */
+}
+
+.product-info {
+    text-align: center; /* Centrer le texte */
+}
+
+.product-info h3 {
+    margin-top: 10px; /* Marge en haut du titre */
+    margin-bottom: 5px; /* Marge en bas du titre */
+}
+
+.product-info p {
+    margin: 0; /* Supprime les marges par défaut */
+}
+
+.product-info .btn {
+    display: block; /* Pour que le bouton prenne toute la largeur */
+    margin-top: 10px; /* Marge en haut du bouton */
+}
+
+/* Centrez le titre "Boutique" */
+#boutique h2 {
+    text-align: center;
+}
+
+/* Style pour la section Contact */
+#contact {
+    background-color: #000; /* Fond noir */
+    color: #fff; /* Texte blanc */
+    padding: 50px 0; /* Espacement intérieur */
+    text-align: center; /* Centrer le contenu */
+}
+
+#contact h2 {
+    margin-bottom: 20px; /* Marge inférieure pour le titre */
+}
+
+#contact form {
+    max-width: 600px; /* Largeur maximale du formulaire */
+    margin: 0 auto; /* Centrer le formulaire horizontalement */
+}
+
+#contact form label {
+    display: block; /* Pour placer les étiquettes sur une ligne distincte */
+    margin-bottom: 10px; /* Marge inférieure entre les étiquettes */
+    text-align: left; /* Alignement du texte à gauche */
+}
+
+#contact form input[type="text"],
+#contact form input[type="email"],
+#contact form textarea {
+    width: 100%; /* Largeur totale */
+    padding: 10px; /* Espacement intérieur */
+    margin-bottom: 20px; /* Marge inférieure */
+    border: 2px solid #fff; /* Bordure blanche de 2px */
+    background-color: transparent; /* Fond transparent */
+    color: #fff; /* Texte blanc */
+    font-size: 16px; /* Taille de la police */
+}
+
+#contact form textarea {
+    min-height: 150px; /* Hauteur minimale pour la zone de texte */
+}
+
+#contact form .btn {
+    background-color: #ffd700; /* Fond jaune */
+    color: #000; /* Texte noir */
+    border: none; /* Pas de bordure */
+    padding: 15px 25px; /* Espacement intérieur */
+    font-size: 18px; /* Taille de la police */
+    cursor: pointer; /* Curseur de type pointeur */
+    transition: background-color 0.3s; /* Transition fluide pour le changement de couleur de fond */
+    display: block; /* Pour que le bouton prenne toute la largeur */
+    margin: 0 auto; /* Centrer le bouton horizontalement */
+    margin-top: 10px; /* Marge en haut du bouton */
+}
+
+#contact form .btn:hover {
+    background-color: #ffc107; /* Fond jaune foncé au survol */
+}style>
+/* Style pour la section Contact */
+#contact {
+    background-color: #000; /* Fond noir */
+    color: #fff; /* Texte blanc */
+    padding: 50px 0; /* Espacement intérieur */
+    text-align: center; /* Centrer le contenu */
+}
+
+#contact h2 {
+    margin-bottom: 20px; /* Marge inférieure pour le titre */
+}
+
+#contact form {
+    max-width: 600px; /* Largeur maximale du formulaire */
+    margin: 0 auto; /* Centrer le formulaire horizontalement */
+}
+
+#contact form label {
+    display: block; /* Pour placer les étiquettes sur une ligne distincte */
+    margin-bottom: 10px; /* Marge inférieure entre les étiquettes */
+    text-align: left; /* Alignement du texte à gauche */
+}
+
+#contact form input[type="text"],
+#contact form input[type="email"],
+#contact form textarea {
+    width: 100%; /* Largeur totale */
+    padding: 10px; /* Espacement intérieur */
+    margin-bottom: 20px; /* Marge inférieure */
+    border: 2px solid #fff; /* Bordure blanche de 2px */
+    background-color: transparent; /* Fond transparent */
+    color: #fff; /* Texte blanc */
+    font-size: 16px; /* Taille de la police */
+}
+
+#contact form textarea {
+    min-height: 150px; /* Hauteur minimale pour la zone de texte */
+}
+
+#contact form .btn {
+    background-color: #ffd700; /* Fond jaune */
+    color: #000; /* Texte noir */
+    border: none; /* Pas de bordure */
+    padding: 15px 25px; /* Espacement intérieur */
+    font-size: 18px; /* Taille de la police */
+    cursor: pointer; /* Curseur de type pointeur */
+    transition: background-color 0.3s; /* Transition fluide pour le changement de couleur de fond */
+    display: block; /* Pour que le bouton prenne toute la largeur */
+    margin: 0 auto; /* Centrer le bouton horizontalement */
+    margin-top: 10px; /* Marge en haut du bouton */
+}
+
+#contact form .btn:hover {
+    background-color: #ffc107; /* Fond jaune foncé au survol */
+}
